@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("./fonts/Lato-Light.woff") format("woff");
+  src: url("./fonts/Lato-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("./fonts/Lato-Regular.woff") format("woff");
+  src: url("./fonts/Lato-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato-Semibold";
+  src: url("./fonts/Lato-Semibold.woff") format("woff");
+  src: url("./fonts/Lato-Semibold.woff2") format("woff2");
+}
+
+body {
+  bacground-color: #111111;
+  font-family: 'Commissioner', sans-serif;
+}
