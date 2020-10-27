@@ -24,4 +24,124 @@
 body {
   bacground-color: #111111;
   font-family: 'Commissioner', sans-serif;
+  background-color: #E5E5E5;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 739px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu__item {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: Commissioner, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.75;
+}
+
+.navbar-menu__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.language {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.language-description {
+  font-weight: 300;
+  margin-right: 13px;
+}
+
+.language-name {
+  font-weight: normal;
+  margin-right: 8px;
+}
+
+.language-button {
+  width: 15px;
+  height: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+}
+
+.contacts {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 418px;
+}
+
+.contacts-number-2 {
+  width: 137px;
+  margin-right: 15px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logo-image {
+  width: 100%;
 }
