@@ -325,3 +325,106 @@ body {
   right: 0;
   top: 0;
 }
+
+.directions {
+  margin-top: 100px;
+}
+
+.directions-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  opacity: 0.9;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.directions-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.directions-card {
+  width: 370px;
+  height: 140px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 25px 15px 25px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.directions-card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 180px;
+  max-height: 90px;
+}
+
+.directions-card-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.9;
+}
+
+.directions-card-link {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.directions-right {
+  overflow: visible;
+}
+
+.directions-image {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.directions-button {
+  margin-top: 10px;
+  width: 200px;
+  height: 45px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #DEC377;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
