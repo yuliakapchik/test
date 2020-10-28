@@ -1,0 +1,69 @@
+.articles
+  position: relative
+  z-index: 0
+  &-container
+    width: 100%
+    height: 650px
+  &-slide
+    padding-top: 185px
+    padding-left: 375px
+    
+  &-image
+    position: absolute
+    top: 0
+    left: 0
+    object-fit: cover
+    z-index: -1
+    max-width: 100%
+    height: 100%
+  &-title
+    font-style: normal
+    font-weight: normal
+    font-size: 40px
+    line-height: 50px
+    opacity: 0.9
+    max-width: 500px
+    margin-top: 0
+    margin-bottom: 20px 
+  &-description
+    margin-bottom: 50px 
+    max-width: 500px
+    font-family: 'Lato', sans-serif
+    font-style: normal
+    font-weight: 300
+    font-size: 15px
+    line-height: 25px
+    opacity: 0.8
+  &-button
+    color: #ffffff
+    font-weight: bold
+    font-size: 13px
+    line-height: 30px
+    width: 200px
+    height: 45px
+    cursor: pointer
+    outline: none
+    border: none
+    border-radius: 2px
+    background-color: #DEC377
+.slider
+  &-button
+    width: 10px
+    height: 18px
+    border: none
+    cursor: pointer
+    outline: none
+    background-color: transparent
+    z-index: 1
+    position: absolute
+    bottom: 20%
+    &-next
+      left: 460px
+      background-image: url(../img/articles/arrow-right.svg)
+      background-repeat: no-repeat
+    &-prev
+      left: 400px
+      background-image: url(../img/articles/arrow-left.svg)
+      background-repeat: no-repeat
+.logo
+  width: 231px

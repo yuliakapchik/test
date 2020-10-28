@@ -1,0 +1,9 @@
+.advantages-card {
+  width: 270px;
+  height: 285px;
+  background-color: #fff;
+}
+
+.advantages-image {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
