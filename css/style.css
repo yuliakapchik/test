@@ -180,6 +180,7 @@ body {
   font-weight: normal;
   font-size: 40px;
   line-height: 50px;
+  letter-spacing: 0.01em;
   opacity: 0.9;
   max-width: 500px;
   margin-top: 0;
@@ -307,6 +308,7 @@ body {
   max-width: 539px;
   margin: 0;
   margin-bottom: 30px;
+  letter-spacing: 0.03em;
 }
 
 .introduction-paragraph {
@@ -335,6 +337,7 @@ body {
   font-weight: normal;
   font-size: 28px;
   line-height: 40px;
+  letter-spacing: 0.03em;
   opacity: 0.9;
   margin-top: 0;
   margin-bottom: 35px;
@@ -427,4 +430,36 @@ body {
   line-height: 30px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.directions-description {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.directions-description-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  opacity: 0.9;
+}
+
+.directions-description-paragraph {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+  max-width: 770px;
 }
