@@ -4,81 +4,132 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>МК Правовые технологии</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header class="navbar">
-    <div class="container">
-      <div class="navbar-top">
-        <div class="language">
-          <span class="language-description">Язык</span>
-          <span class="language-name">Русский</span>
-          <button class="language-button">  
-            <img src="img/header/arrow.svg" alt="arrow">
-          </button>
-        </div>
-        <!-- /.language -->
-        <div class="visually-impaired">
-          <img src="img/header/eye.png" alt="visually-impaired">
-        </div>
-        <!-- /.visually-impaired -->
-        <div class="contacts">
-          <span class="contacts-number-1">+375 (44) 755-01-01</span>
-          <img class="contacts-a1" src="img/header/a1.png" alt="logo: a1">
-          <img class="contacts-viber" src="img/header/viber.png" alt="logo: viber">
-          <img class="contacts-whatsapp" src="img/header/whatsapp.png" alt="logo: whatsapp">
-          <span class="contacts-number-2">+375 (29) 550-01-01</span>
-          <img class="contacts-mts" src="img/header/mts.png" alt="logo: mts">
-        </div>
-        <!-- /.contacts -->
-      </div>
-      <!-- navbar-top -->
-    </div>
-    <!-- /.container -->
-    <div class="navbar-bottom">
+  <body>
+    <header class="navbar">
       <div class="container">
-        <a href="#" class="logo">
-          <img
-            src="img/header/logo.png"
-            alt="logo"
-            class="logo__image"
-          />
-        </a>
-        <ul class="navbar-menu">
-          <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Главная</a>
-          </li>
-          <li class="navbar-menu__item">
-            <a href="#hotel" class="navbar-menu__link">О нас</a>
-          </li>
-          <li class="navbar-menu__item">
-            <a href="#activities" class="navbar-menu__link">Услуги</a>
-          </li>
-          <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Тарифы</a>
-          </li>
-          <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Инфоцентр</a>
-          </li>
-          <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Контакты</a>
-          </li>
-          <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">
-              <img src="img/header/search.svg" alt="icon: search">
-            </a>
-          </li>
-        </ul>
-        <!-- navbar-menu -->
-    </div>
-    <!-- /.navbar-bottom -->
-  </div>
-  <!-- /.container -->
-  </header>
+        <div class="navbar-top">
+          <div class="language">
+            <span class="language-description">Язык</span>
+            <span class="language-name">Русский</span>
+            <button class="language-button">  
+              <img src="img/header/arrow.svg" alt="arrow">
+            </button>
+          </div>
+          <!-- /.language -->
+          <div class="visually-impaired">
+            <img src="img/header/eye.png" alt="visually-impaired">
+          </div>
+          <!-- /.visually-impaired -->
+          <div class="contacts">
+            <span class="contacts-number-1">+375 (44) 755-01-01</span>
+            <img class="contacts-a1" src="img/header/a1.png" alt="logo: a1">
+            <img class="contacts-viber" src="img/header/viber.png" alt="logo: viber">
+            <img class="contacts-whatsapp" src="img/header/whatsapp.png" alt="logo: whatsapp">
+            <span class="contacts-number-2">+375 (29) 550-01-01</span>
+            <img class="contacts-mts" src="img/header/mts.png" alt="logo: mts">
+          </div>
+          <!-- /.contacts -->
+        </div>
+        <!-- navbar-top -->
+      </div>
+      <!-- /.container -->
+      <div class="navbar-bottom">
+        <div class="container">
+          <a href="#" class="logo">
+            <img
+              src="img/header/logo.png"
+              alt="logo"
+              class="logo__image"
+            />
+          </a>
+          <ul class="navbar-menu">
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Главная</a>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#hotel" class="navbar-menu__link">О нас</a>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#activities" class="navbar-menu__link">Услуги</a>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Тарифы</a>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Инфоцентр</a>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Контакты</a>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">
+                <img src="img/header/search.svg" alt="icon: search">
+              </a>
+            </li>
+          </ul>
+          <!-- navbar-menu -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.navbar-bottom -->
+    </header>
+      <div class="articles">
+           <!-- Slider main container -->
+        <div class="swiper-container articles-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide articles-slide articles-slide-1">
+                <img src="img/articles/atricles-img-1.jpg" alt="article image" class="articles-image">
+                <h3 class="articles-title">Взыскание дебиторской задолженности</h3>
+                <p class="articles-description">Индивидуальный подход и нацеленность на достижение результата</p>
+                <button class="articles-button">Подробнее</button>
+              </div>
+              <div class="swiper-slide articles-slide articles-slide-2">
+                <img src="img/articles/atricles-img-2.jpg" alt="article image" class="articles-image">
+                <h3 class="articles-title">Регистрация ООО</h3>
+                <p class="articles-description">Гарантируем минимальные сроки регистрации под ключ</p>
+                <button class="articles-button">Подробнее</button>
+              </div>
+              <div class="swiper-slide articles-slide articles-slide-3">
+                <img src="img/articles/atricles-img-3.jpg" alt="article image" class="articles-image">
+                <h3 class="articles-title">Ликвидация предприятия</h3>
+                <p class="articles-description">Эффективное решение сложных задач</p>
+                <button class="articles-button">Подробнее</button>
+              </div>
+              <div class="swiper-slide articles-slide articles-slide-4">
+                <img src="img/articles/atricles-img-4.jpg" alt="article image" class="articles-image">
+                <h3 class="articles-title">Юридическая консультация</h3>
+                <p class="articles-description">Детальные разъяснения вопросов по ведению бизнеса от профессионалов</p>
+                <button class="articles-button">Подробнее</button>
+              </div>
+              <div class="swiper-slide articles-slide articles-slide-5">
+                <img src="img/articles/atricles-img-5.jpg" alt="article image" class="articles-image">
+                <h3 class="articles-title">Юридический аутсорсинг</h3>
+                <p class="articles-description">Гарантия своевременности и качества услуг</p>
+                <button class="articles-button">Подробнее</button>
+              </div>
+
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <button class="slider-button slider-button-prev"></button>
+          <button class="slider-button slider-button-next"></button>
+
+          </div>
+          <!-- /.swiper-container -->
+
+      </div>
+      <!-- /.articles -->
 
 
 
-</body>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
