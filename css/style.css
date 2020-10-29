@@ -1097,3 +1097,88 @@ body {
   border-radius: 50%;
   margin-right: 30px;
 }
+
+.excellence {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.excellence-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  opacity: 0.9;
+  margin-bottom: 35px;
+}
+
+.excellence-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.excellence-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 270px;
+}
+
+.excellence-icon {
+  padding: 30px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.excellence-name {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  opacity: 0.75;
+  width: 230px;
+  height: 100px;
+  margin: auto;
+}
+
+.excellence-text {
+  padding: 40px 0 45px 50px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  position: relative;
+}
+
+.excellence-paragraph {
+  margin: 0;
+  max-width: 750px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.8;
+}
+
+.excellence-sticker {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
