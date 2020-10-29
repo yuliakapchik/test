@@ -1,0 +1,100 @@
+.reviews
+  background-color: #fff
+  padding-top: 210px
+  transform: translateY(-110px)
+  &-slide
+    display: flex
+    justify-content: space-between
+    margin-bottom: 30px
+  &-title
+    font-style: normal
+    font-weight: normal
+    font-size: 28px
+    line-height: 40px
+    letter-spacing: 0.03em
+    opacity: 0.9
+    margin-top: 0
+    margin-bottom: 35px
+  &-card
+    position: relative
+    max-width: 570px
+    background-color: #fff
+    padding: 140px 50px 65px 50px
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08)
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-image
+    position: absolute
+    left: 0
+    top: 0
+  &-profession
+    font-family: 'Lato', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 15px
+    line-height: 25px
+    opacity: 0.5
+  &-name
+    font-style: normal
+    font-weight: bold
+    font-size: 26px
+    line-height: 40px
+    letter-spacing: 0.01em
+    color: #DEC377
+  &-text
+    font-family: 'Lato', sans-serif
+    font-style: normal
+    font-weight: 300
+    font-size: 14px
+    line-height: 25px
+    letter-spacing: 0.01em
+    opacity: 0.8
+  &-link
+    font-family: 'Lato', sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 12px
+    line-height: 20px
+    letter-spacing: 0.02em
+    text-transform: uppercase
+    text-decoration: none
+    color: inherit
+    opacity: 0.5
+  &-button
+    position: absolute
+    bottom: 0
+    right: 20px
+    z-index: 10
+    width: 10px
+    height: 18px
+    color: red
+    cursor: pointer
+    &-prev
+      background-image: url(../img/articles/arrow-left.svg)
+      background-repeat: no-repeat
+      right: 70px
+    &-next
+      background-image: url(../img/articles/arrow-right.svg)
+      background-repeat: no-repeat
+    &-all
+      width: 200px
+      height: 45px
+      color: #ffffff
+      background-color: #DEC377
+      cursor: pointer
+      outline: none
+      border: none
+      border-radius: 2px
+      font-style: normal
+      font-weight: bold
+      font-size: 13px
+      line-height: 30px
+      letter-spacing: 0.08em
+      text-transform: uppercase
+      margin-bottom: 105px
+  &-pagination
+    position: absolute
+    bottom: -41px
+    right: 50%
+    color: #DEC377
