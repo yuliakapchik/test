@@ -219,6 +219,7 @@ body {
   border: none;
   border-radius: 2px;
   background-color: #DEC377;
+  text-transform: uppercase;
 }
 
 .slider-button {
@@ -279,12 +280,10 @@ body {
           flex-direction: column;
 }
 
-.advantages-image {
+.advantages-icon {
   border: 3px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 30px;
-  -o-object-fit: cover;
-     object-fit: cover;
   margin: auto;
   margin-bottom: 25px;
 }
@@ -416,12 +415,10 @@ body {
   overflow: visible;
 }
 
-.directions-image {
+.directions-right {
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .directions-button {
@@ -476,17 +473,18 @@ body {
 .gallery {
   background-color: #E5E5E5;
   height: 450px;
+  overflow: visible;
+  position: relative;
 }
 
 .gallery-container {
   width: 1170px;
   height: 560px;
-  position: relative;
 }
 
 .gallery-button {
   position: absolute;
-  z-index: 10;
+  z-index: 99;
   width: 17px;
   height: 30px;
   top: 50%;
@@ -645,7 +643,7 @@ body {
   position: absolute;
   bottom: -41px;
   right: 50%;
-  color: #DEC377;
+  background-color: #DEC377;
 }
 
 .partners {
@@ -1384,7 +1382,6 @@ body {
 }
 
 .footer {
-  padding-top: 49px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -1409,11 +1406,13 @@ body {
 }
 
 .footer-requisites-title {
+  padding-top: 49px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   opacity: 0.9;
+  margin-top: 0;
   margin-bottom: 70px;
 }
 
@@ -1489,14 +1488,20 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 640px;
 }
 
 .footer-offices-block {
   max-width: 200px;
 }
 
+.footer-offices-block-margin {
+  margin-right: 35px;
+}
+
 .footer-title {
   margin: 0;
+  margin-top: 84px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   padding-bottom: 5px;
@@ -1523,6 +1528,10 @@ body {
   padding-bottom: 10px;
 }
 
+.footer-title-2-bottom {
+  margin-bottom: 20px;
+}
+
 .footer-name {
   font-style: normal;
   font-weight: 500;
@@ -1536,14 +1545,21 @@ body {
 
 .footer-text {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-family: 'Lato', sans-serif;
-  font-family: Lato;
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
   opacity: 0.8;
+}
+
+.footer-text-margin-20 {
+  margin-bottom: 20px;
+}
+
+.footer-text-margin-30 {
+  margin-bottom: 30px;
 }
 
 .footer-email {
@@ -1572,6 +1588,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.footer-bottom-link {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -1579,6 +1598,8 @@ body {
   line-height: 20px;
   letter-spacing: 0.02em;
   opacity: 0.8;
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 1280px) {

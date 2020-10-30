@@ -58,6 +58,7 @@ var reviewsSlider = new Swiper('.reviews-container', {
   // If we need pagination
   pagination: {
     el: '.reviews-pagination',
+    clickable: true,
   },
 
   // Navigation arrows
