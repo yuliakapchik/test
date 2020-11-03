@@ -1,4 +1,5 @@
-// ----------------Подключение слайдера со статьями----------------------
+$(document).ready(function () {
+  // ----------------Подключение слайдера со статьями----------------------
 var articlesSlider = new Swiper('.articles-container', {
   // Optional parameters
   loop: true,
@@ -68,3 +69,19 @@ var reviewsSlider = new Swiper('.reviews-container', {
   },
 
 })
+
+// Подключение плагина валидации форм
+  $(".cooperation__form").validate({
+      messages: {
+        name: {
+          required: "Пожалуйста, введите Ваше имя",
+          minlength: "Минимум 2 буквы",
+        },
+        phone: {
+          required: "Оставьте, пожалуйста, Ваш номер телефона",
+        },
+      },
+    });
+// Подключение плагина маски для телефона
+$('.phone').mask('+375 (00) 000-00-00');
+});
