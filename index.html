@@ -23,17 +23,20 @@
                 </button>
               </div>
               <!-- /.language -->
-              <div class="visually-impaired">
-                <img src="img/header/eye.png" alt="visually-impaired">
-              </div>
-              <!-- /.visually-impaired -->
+                <a class="visually-impaired-link" href="#">
+                  <img class="visually-impaired-image" src="img/header/eye.png" alt="visually-impaired">
+                </a>
               <div class="contacts">
-                <span class="contacts-number-1">+375 (44) 755-01-01</span>
-                <img class="contacts-a1" src="img/header/a1.png" alt="logo: a1">
-                <img class="contacts-viber" src="img/header/viber.png" alt="logo: viber">
-                <img class="contacts-whatsapp" src="img/header/whatsapp.png" alt="logo: whatsapp">
-                <span class="contacts-number-2">+375 (29) 550-01-01</span>
-                <img class="contacts-mts" src="img/header/mts.png" alt="logo: mts">
+                <div>
+                  <span class="contacts-number-1">+375 (44) 755-01-01</span>
+                  <img class="contacts-a1" src="img/header/a1.png" alt="logo: a1">
+                  <img class="contacts-viber" src="img/header/viber.png" alt="logo: viber">
+                  <img class="contacts-whatsapp" src="img/header/whatsapp.png" alt="logo: whatsapp">
+                </div>
+                <div>
+                  <span class="contacts-number-2">+375 (29) 550-01-01</span>
+                  <img class="contacts-mts" src="img/header/mts.png" alt="logo: mts">
+                </div>
               </div>
               <!-- /.contacts -->
         </div>
@@ -96,40 +99,58 @@
               <!-- Slides -->
               <div class="swiper-slide articles-slide articles-slide-1">
                 <img src="img/articles/atricles-img-1.jpg" alt="article image" class="articles-image">
-                <h1 class="articles-title">Взыскание дебиторской задолженности</h1>
-                <p class="articles-description">Индивидуальный подход и нацеленность на достижение результата</p>
-                <button class="articles-button">Подробнее</button>
+                <div class="container">
+                  <h1 class="articles-title">Взыскание дебиторской задолженности</h1>
+                  <p class="articles-description">Индивидуальный подход и нацеленность на достижение результата</p>
+                  <button class="articles-button">Подробнее</button>
+                </div>
+                <!-- /.container -->
               </div>
               <div class="swiper-slide articles-slide articles-slide-2">
                 <img src="img/articles/atricles-img-2.jpg" alt="article image" class="articles-image">
-                <h1 class="articles-title">Регистрация ООО</h1>
-                <p class="articles-description">Гарантируем минимальные сроки регистрации под ключ</p>
-                <button class="articles-button">Подробнее</button>
+                <div class="container">
+                  <h1 class="articles-title">Регистрация ООО</h1>
+                  <p class="articles-description">Гарантируем минимальные сроки регистрации под ключ</p>
+                  <button class="articles-button">Подробнее</button>
+                </div>
+                <!-- /.container -->
               </div>
               <div class="swiper-slide articles-slide articles-slide-3">
                 <img src="img/articles/atricles-img-3.jpg" alt="article image" class="articles-image">
-                <h1 class="articles-title">Ликвидация предприятия</h1>
-                <p class="articles-description">Эффективное решение сложных задач</p>
-                <button class="articles-button">Подробнее</button>
+                <div class="container">
+                  <h1 class="articles-title">Ликвидация предприятия</h1>
+                  <p class="articles-description">Эффективное решение сложных задач</p>
+                  <button class="articles-button">Подробнее</button>
+                </div>
+                <!-- /.container -->
               </div>
               <div class="swiper-slide articles-slide articles-slide-4">
                 <img src="img/articles/atricles-img-4.jpg" alt="article image" class="articles-image">
-                <h1 class="articles-title">Юридическая консультация</h1>
-                <p class="articles-description">Детальные разъяснения вопросов по ведению бизнеса от профессионалов</p>
-                <button class="articles-button">Подробнее</button>
+                <div class="container">
+                  <h1 class="articles-title">Юридическая консультация</h1>
+                  <p class="articles-description">Детальные разъяснения вопросов по ведению бизнеса от профессионалов</p>
+                  <button class="articles-button">Подробнее</button>
+                </div>
+                <!-- /.container -->
               </div>
               <div class="swiper-slide articles-slide articles-slide-5">
                 <img src="img/articles/atricles-img-5.jpg" alt="article image" class="articles-image">
-                <h1 class="articles-title">Юридический аутсорсинг</h1>
-                <p class="articles-description">Гарантия своевременности и качества услуг</p>
-                <button class="articles-button">Подробнее</button>
+                <div class="container">
+                  <h1 class="articles-title">Юридический аутсорсинг</h1>
+                  <p class="articles-description">Гарантия своевременности и качества услуг</p>
+                  <button class="articles-button">Подробнее</button>
+                </div>
+                <!-- /.container -->
               </div>
           </div>
           <!-- If we need navigation buttons -->
-          <button class="slider-button slider-button-prev"></button>
-          <button class="slider-button slider-button-next"></button>
+          <div class="container">
+            <button class="slider-button slider-button-prev"></button>
+            <button class="slider-button slider-button-next"></button>
+          </div>
           </div>
           <!-- /.swiper-container -->
+
       </div>
       <!-- /.articles -->
       <!-- ------------------Конец блока со слайдером со статьями------------------ -->
@@ -435,13 +456,13 @@
             <button class="partners-button">Наши партнеры</button>
           </div>
           <!-- /.partners-text -->
-          <div class="partners-images">
+          <marquee behavior="scroll" direction="left" scrollamount="10" class="partners-images">
             <img class="partners-image" src="img/partners/logo-1.jpg" alt="partners-image">
             <img class="partners-image" src="img/partners/logo-2.jpg" alt="partners-image">
             <img class="partners-image" src="img/partners/logo-3.jpg" alt="partners-image">
             <img class="partners-image" src="img/partners/logo-4.jpg" alt="partners-image">
             <img class="partners-image" src="img/partners/logo-5.jpg" alt="partners-image">
-          </div>
+          </marquee>
           <!-- /.partners-image -->
         </div>
         <!-- /.container -->
@@ -742,16 +763,19 @@
         <div class="footer-requisites">
           <div class="footer-requisites-wrapper">
             <h2 class="footer-requisites-title">ООО “МК-ПРАВОВЫЕ ТЕХНОЛОГИИ”</h2>
-            <div class="footer-requisites-item">
-              УНП
-              <span class="footer-requisites-span">192710862</span>
+            <div class="footer-requisites-block">
+              <div class="footer-requisites-item">
+                УНП
+                <span class="footer-requisites-span">192710862</span>
+              </div>
+              <!-- /.footer-requisite-item -->
+              <div class="footer-requisites-item">
+                Наш рейтинг
+                <span class="footer-requisites-span">5 из 5 (15 отзывов)</span>
+              </div>
+              <!-- /.footer-requisite-item -->
             </div>
-            <!-- /.footer-requisite-item -->
-            <div class="footer-requisites-item">
-              Наш рейтинг
-              <span class="footer-requisites-span">5 из 5 (15 отзывов)</span>
-            </div>
-            <!-- /.footer-requisite-item -->
+            <!-- /.footer-requisites-block -->
             <div class="footer-icons">
               <a href="https://vk.com" class="footer-icons-image">
                 <img src="img/footer/vk.png" alt="icon: vkontakte">
@@ -773,14 +797,17 @@
               </a>              
             </div>
             <!-- /.footer-icons -->
-            <a href="#" class="footer-requisites-link">
-              <span class="footer-requisites-text">Карта сайта</span> 
-              <img class="footer-requisites-arrow" src="img/footer/arrow.svg" alt="arrow">
-            </a>
-            <a href="#" class="footer-requisites-link">
-              <span class="footer-requisites-text">Политика <br> конфиденциальности</span> 
-              <img class="footer-requisites-arrow" src="img/footer/arrow.svg" alt="arrow">
-            </a>
+            <div class="footer-links-block">
+              <a href="#" class="footer-requisites-link">
+                <span class="footer-requisites-text">Карта сайта</span> 
+                <img class="footer-requisites-arrow" src="img/footer/arrow.svg" alt="arrow">
+              </a>
+              <a href="#" class="footer-requisites-link">
+                <span class="footer-requisites-text">Политика конфиденциальности</span> 
+                <img class="footer-requisites-arrow" src="img/footer/arrow.svg" alt="arrow">
+              </a>
+            </div>
+            <!-- /.footer-links-block -->
           </div>
           <!-- /.footer-requisites-wrapper -->
         </div>

@@ -84,4 +84,6 @@ var reviewsSlider = new Swiper('.reviews-container', {
     });
 // Подключение плагина маски для телефона
 $('.phone').mask('+375 (00) 000-00-00');
+
+
 });
