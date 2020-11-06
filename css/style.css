@@ -160,6 +160,11 @@ body {
   margin-right: 15px;
 }
 
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .logo {
   height: 60px;
   margin-right: 262px;
@@ -1581,6 +1586,11 @@ body {
 
 .footer-text-margin-30 {
   margin-bottom: 30px;
+}
+
+.footer-text-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .footer-email {
