@@ -85,5 +85,9 @@ var reviewsSlider = new Swiper('.reviews-container', {
 // Подключение плагина маски для телефона
 $('.phone').mask('+375 (00) 000-00-00');
 
-
+// при нажатии на пункт меню, меню должно открываться/закрываться
+var menuButton = $(".menu-button");
+menuButton.on("click", function () {
+  $(".navbar-menu").toggleClass("navbar-menu--visible");
+});
 });
