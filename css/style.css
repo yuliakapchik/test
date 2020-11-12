@@ -756,6 +756,7 @@ body {
 }
 
 .stickers-title {
+  margin-top: 0;
   margin-bottom: 15px;
   font-style: normal;
   font-weight: normal;
